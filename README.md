@@ -28,6 +28,6 @@ AI Vision will allow us to find the number of people inside the metro.
 - Abhinav Kumar
 - Nitesh Kumar
 
-Built with ❤️ by Team CODE BRIGADE<br>
+Built by Team CODE BRIGADE<br>
 5th Technovation Hackathon<br>
 Sharda University,Greater Noida
