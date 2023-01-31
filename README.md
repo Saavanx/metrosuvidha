@@ -1,6 +1,6 @@
 ![](metrosuvidha_gif.gif)
 # METRO SUVIDHA
-# [Website Here](https://saavanx.github.io/metrosuvidha.io/) | [Documentation Here](https://docs.google.com/document/d/1bdQxrL0_APuMbPXQ5jXu5OTM5P-UKa5MmA3lAYiRPXU/edit?usp=share_link)
+# [Website Here](https://saavanx.github.io/metrosuvidha.io/) | [Documentation Here](https://drive.google.com/file/d/1vLa6wQ2vDafvU5mq-XSnOG6WhvGLuKNe/view?usp=sharing)
 
 Real-time Seat availability in Metro using Computer Vision , There have been a problem of havoc in the metro during entry and exit and many people try to enter in the same bogie.
 Its sometime hard to predict which bogie is having more space to have seat and there is also a time constrain.we wish to provide the space/seats available inside the next upcoming metro.The data we use i.e. the real-time video will be provided by the Cameras already present in the metro.
