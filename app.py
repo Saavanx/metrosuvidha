@@ -15,7 +15,7 @@ def index():
 
 def gen():
    
-    cap = cv2.VideoCapture("768x576.avi")
+    cap = cv2.VideoCapture(0)
 
 
    
@@ -35,7 +35,7 @@ def gen():
             continue
         if ret:  
             image = cv2.resize(frame, (0, 0), None, 1, 1)
-            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)   gray
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)   
             fgmask = sub.apply(gray)  
             kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))  
             closing = cv2.morphologyEx(fgmask, cv2.MORPH_CLOSE, kernel)
@@ -80,4 +80,4 @@ def video_feed():
         mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=9999,debug=True)
